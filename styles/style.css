@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --background-default: #F5F4F0;
+  --border-primary: #D9D9D9;
+}
+
+body {
+  background-color: #F5F4F0;
+}
+
+main {
+  margin: 4rem 0px;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-title {
+  display: grid;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.container-image {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2.5rem 0px;
+  padding: 1rem;
+}
+
+.image {
+  border: 1px solid var(--background-primary);
+  border-radius: 20px;
+  object-fit: fill;
+  width: 100%;
+  height: auto;
+}
+
+.text-h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.text-h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.text-h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.text-headline {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.text-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.text-primary {
+  color: #1B1B1B
+}
+
+.separator {
+  border: 1px solid #D9D9D9;
+  width: 100%;
+}
+
+.text-secondary {
+  color: #333333
+}
+
+.text-tertiary {
+  color: #696969
+}
+
+.text-headline {
+  color: #E1624F
+}
+
+.accent-blue {
+  color: #0C51A7
+}
+
+.accent-orange {
+  color: #E95E10
+}
+
+.accent-pink {
+  color: #E5245E
+}
+
+.accent-purple {
+  color: #591B98
+}
